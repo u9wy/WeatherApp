@@ -1,6 +1,6 @@
 package com.weatherapp.module.weatherforecast.presenter;
 
-import com.weatherapp.Util.DateTimeUtil;
+import com.weatherapp.util.DateTimeUtil;
 import com.weatherapp.datamodel.external.FiveDayForecast;
 import com.weatherapp.datamodel.external.Forecast;
 import com.weatherapp.datamodel.internal.DailyForecast;

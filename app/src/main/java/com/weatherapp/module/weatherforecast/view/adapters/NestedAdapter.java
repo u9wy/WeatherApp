@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.weatherapp.R;
-import com.weatherapp.Util.DateTimeUtil;
+import com.weatherapp.util.DateTimeUtil;
 import com.weatherapp.datamodel.external.Forecast;
 import com.weatherapp.weatherapi.BaseUrls;
 
