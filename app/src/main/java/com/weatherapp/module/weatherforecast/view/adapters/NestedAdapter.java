@@ -17,8 +17,9 @@ import com.weatherapp.weatherapi.BaseUrls;
 import java.util.List;
 
 
-public class NestedAdapter extends RecyclerView.Adapter<NestedAdapter.ViewHolder> {
+class NestedAdapter extends RecyclerView.Adapter<NestedAdapter.ViewHolder> {
 
+    private static final String PNG_FORMAT = ".png";
     private List<Forecast> itemList;
 
     NestedAdapter(List<Forecast> itemList) {
@@ -75,7 +76,7 @@ public class NestedAdapter extends RecyclerView.Adapter<NestedAdapter.ViewHolder
 
 
         Glide.with(holder.imageViewIcon.getContext())
-                .load(BaseUrls.IMAGE_ICON_URL + forecast.getWeather().getIcon() + ".png")
+                .load(BaseUrls.IMAGE_ICON_URL + forecast.getWeather().getIcon() + PNG_FORMAT)
                 .into(holder.imageViewIcon);
     }
 
