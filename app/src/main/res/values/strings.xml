@@ -1,3 +1,14 @@
 <resources>
+    <string name="app_name">Weather App</string>
+    <string name="humidity_description">Humidity</string>
+    <string name="pressure_description">Pressure</string>
+    <string name="wind">Wind</string>
+
+    <string name="wind_direction">%s °</string>
+    <string name="wind_speed">%s m/s</string>
+    <string name="temp_celcius">%s°</string>
+    <string name="humidity">%s %%</string>
+    <string name="pressure">%s mb</string>
+    <string name="Error">Error</string>
 
 </resources>
