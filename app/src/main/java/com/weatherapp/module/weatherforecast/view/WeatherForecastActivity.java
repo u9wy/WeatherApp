@@ -18,7 +18,6 @@ public class WeatherForecastActivity extends AppCompatActivity {
 
         view = new WeatherForecastView(this);
         presenter = new WeatherForecastPresenter(view);
-        view.setPresenter(presenter);
         setContentView(view);
 
     }
